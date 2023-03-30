@@ -1,0 +1,66 @@
+JSON
+{
+  "firstName":"Georg",
+  "secondName":"Stundent",
+  "age":20,
+  "course":"International Economy",
+  "yearBegin":2020,
+  "averageMark":4.5,
+  "studyingLanguage":[
+    "eng",
+    "ua"
+  ],
+  "subjectFaild":null,
+  "subjectToBePassed":[
+    "Subjekt1",
+    "Subjekt2",
+    "Subjekt3"
+  ],
+  "subjectPassed":{
+    "Subjekt4":5,
+    "Subjekt5":"passed",
+    "Subjekt6":5
+  }
+}
+
+YAML
+firstName: Georg
+secondName: Stundent
+age: 20
+course: International Economy
+yearBegin: 2020
+averageMark: 4.5
+studyingLanguage:
+- eng
+- ua
+subjectFaild:
+subjectToBePassed:
+- Subjekt1
+- Subjekt2
+- Subjekt3
+subjectPassed:
+  Subjekt4: 5
+  Subjekt5: passed
+  Subjekt6: 5
+
+XML
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <firstName>Georg</firstName>
+  <secondName>Stundent</secondName>
+  <age>20</age>
+  <course>International Economy</course>
+  <yearBegin>2020</yearBegin>
+  <averageMark>4.5</averageMark>
+  <studyingLanguage>eng</studyingLanguage>
+  <studyingLanguage>ua</studyingLanguage>
+  <subjectFaild/>
+  <subjectToBePassed>Subjekt1</subjectToBePassed>
+  <subjectToBePassed>Subjekt2</subjectToBePassed>
+  <subjectToBePassed>Subjekt3</subjectToBePassed>
+  <subjectPassed>
+    <Subjekt4>5</Subjekt4>
+    <Subjekt5>passed</Subjekt5>
+    <Subjekt6>5</Subjekt6>
+  </subjectPassed>
+</root>
